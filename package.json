@@ -1,0 +1,22 @@
+{
+	"name": "slackbotify",
+	"version": "0.1.0",
+	"description": "Simple slackbot framework",
+	"main": "index.js",
+	"scripts": {
+		"precommit": "gulp lint",
+		"start": "node ./index.js"
+	},
+	"author": "Rolf Koenders <@rolfkoenders>",
+	"license": "MIT",
+	"dependencies": {
+		"convict": "^1.4.0"
+	},
+	"devDependencies": {
+		"xo": "^0.16.0",
+		"gulp": "^3.9.1",
+		"gulp-xo": "^0.12.0",
+		"run-sequence": "^1.2.2",
+		"husky": "^0.11.7"
+	}
+}

@@ -10,7 +10,8 @@
 	"author": "Rolf Koenders <@rolfkoenders>",
 	"license": "MIT",
 	"dependencies": {
-		"convict": "^1.4.0"
+    "lodash": "^4.15.0",
+    "slackbots": "^0.5.2"
 	},
 	"devDependencies": {
 		"xo": "^0.16.0",

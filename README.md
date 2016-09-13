@@ -1,6 +1,7 @@
 
 # slackbotify
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
+[![npm](https://img.shields.io/npm/v/slackbotify.svg?maxAge=3600)](https://www.npmjs.com/package/slackbotify)
 
 > Simple slackbot framework
 
@@ -47,6 +48,10 @@ The 'match' property is what the message should match in order to get called. Th
 
 ### Handler
 The handler is a function which receives as the first argument the actual messages which is send, parsed by the `.match()` function. The second argument is the callback. The response you give to that callback is send to the user, so basically what the bot will answer.
+
+## Bots
+The current bots are using slackbotify
+- [Mr. Potato](https://github.com/RolfKoenders/potato) _Couchpotato slackbot_
 
 ## License
 [MIT](https://opensource.org/licenses/MIT)

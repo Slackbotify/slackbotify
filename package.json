@@ -9,6 +9,10 @@
 	},
 	"author": "Rolf Koenders <@rolfkoenders>",
 	"license": "MIT",
+	"repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:RolfKoenders/slackbotify.git"
+  },
 	"dependencies": {
     "lodash": "^4.15.0",
     "slackbots": "^0.5.2"

@@ -57,7 +57,7 @@ A handler can be registered to multiple groups. In the example above the first h
 The 'match' property is what the message should match in order to get called. This can be a regex or a string.
 
 ### Handler
-The handler is a function which receives as the first argument the actual messages which is send, parsed by the `.match()` function. The second argument is the callback. The response you give to that callback is send to the user, so basically what the bot will answer.
+The handler is a function which receives as the first argument the slack message object. The result of the matched message is located at `message.matchResult` this is the parsed result by the `.match()` function. The second argument is the callback. The response you give to that callback is send to the user, so basically what the bot will answer.
 
 ## Bots
 The current bots are using slackbotify

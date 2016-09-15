@@ -24,7 +24,7 @@ let bot = new Bot({
 });
 
 bot.registerHandler({
-	group: ['direct'],
+	groups: ['direct'],
 	match: /hi/ig,
 	handler: function (message, callback) {
 		callback('Hi there! :smiley:');
@@ -32,7 +32,7 @@ bot.registerHandler({
 });
 
 bot.registerHandler({
-	group: ['channel', 'direct'],
+	groups: ['channel', 'direct'],
 	match: /:smile:/ig,
 	handler: function (message, callback) {
 		callback(':slightly_smiling_face:');

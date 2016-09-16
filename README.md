@@ -62,6 +62,7 @@ The handler is a function which receives as the first argument the slack message
 ## Bots
 The current bots are using slackbotify
 - [Mr. Potato](https://github.com/RolfKoenders/potato) _Couchpotato slackbot_
+- [Butler](https://github.com/RolfKoenders/butler) _Personal butler_
 
 ## License
 [MIT](https://opensource.org/licenses/MIT)

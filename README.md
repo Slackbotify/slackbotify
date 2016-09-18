@@ -13,7 +13,7 @@ npm install slackbotify
 ## Usage
 Creating a slackbot is as easy require the dependency, load the config and register a handler. Run it. Done. Slackbot is ready!
 
-```
+```javascript
 const Bot = require('slackbotify');
 
 let bot = new Bot({

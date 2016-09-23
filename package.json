@@ -1,6 +1,6 @@
 {
 	"name": "slackbotify",
-	"version": "0.3.2",
+	"version": "0.4.2",
 	"description": "Simple slackbot framework",
 	"main": "index.js",
 	"scripts": {

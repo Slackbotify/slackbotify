@@ -13,7 +13,7 @@ npm install slackbotify
 ## Usage
 Creating a slackbot is as easy require the dependency, load the config and register a handler. Run it. Done. Slackbot is ready!
 
-```
+```javascript
 const Bot = require('slackbotify');
 
 let bot = new Bot({
@@ -24,7 +24,7 @@ let bot = new Bot({
 });
 
 bot.registerHandler({
-	group: ['direct'],
+	groups: ['direct'],
 	match: /hi/ig,
 	handler: function (message, callback) {
 		callback('Hi there! :smiley:');
@@ -32,7 +32,7 @@ bot.registerHandler({
 });
 
 bot.registerHandler({
-	group: ['channel', 'direct'],
+	groups: ['channel', 'direct'],
 	match: /:smile:/ig,
 	handler: function (message, callback) {
 		callback(':slightly_smiling_face:');
@@ -62,6 +62,7 @@ The handler is a function which receives as the first argument the slack message
 ## Bots
 The current bots are using slackbotify
 - [Mr. Potato](https://github.com/RolfKoenders/potato) _Couchpotato slackbot_
+- [Butler](https://github.com/RolfKoenders/butler) _Personal butler_
 
 ## License
 [MIT](https://opensource.org/licenses/MIT)

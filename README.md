@@ -2,6 +2,7 @@
 # slackbotify
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 [![npm](https://img.shields.io/npm/v/slackbotify.svg?maxAge=3600)](https://www.npmjs.com/package/slackbotify)
+[![npm](https://img.shields.io/npm/dm/slackbotify.svg?maxAge=3600)](https://www.npmjs.com/package/slackbotify)
 
 > Simple slackbot framework
 

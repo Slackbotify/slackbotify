@@ -65,5 +65,9 @@ The current bots are using slackbotify
 - [Mr. Potato](https://github.com/RolfKoenders/potato) _Couchpotato slackbot_
 - [Butler](https://github.com/RolfKoenders/butler) _Personal butler_
 
+## Donate / Support
+If you like Mr. Potato and it already saved you some time, consinder buying me a coffee to show your support! Thanks in advance!
+[![](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/rolfkoenders "Buy me a coffee")
+
 ## License
 [MIT](https://opensource.org/licenses/MIT)

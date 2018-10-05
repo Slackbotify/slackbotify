@@ -10,23 +10,23 @@
 	"author": "Rolf Koenders <@rolfkoenders>",
 	"license": "MIT",
 	"keywords": [
-	  "slack",
-	  "slackbot",
-	  "slackbotify"
+		"slack",
+		"slackbot",
+		"slackbotify"
 	],
 	"repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com:Slackbotify/slackbotify.git"
-  },
+		"type": "git",
+		"url": "git+ssh://git@github.com:Slackbotify/slackbotify.git"
+	},
 	"dependencies": {
-    "lodash": "^4.15.0",
-    "slackbots": "^0.5.2"
+		"lodash": "^4.15.0",
+		"slackbots": "^0.5.2"
 	},
 	"devDependencies": {
-		"xo": "^0.16.0",
-		"gulp": "^3.9.1",
+		"gulp": "^4.0.0",
 		"gulp-xo": "^0.12.0",
+		"husky": "^0.11.7",
 		"run-sequence": "^1.2.2",
-		"husky": "^0.11.7"
+		"xo": "^0.16.0"
 	}
 }
